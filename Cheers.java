@@ -8,7 +8,7 @@ public class Cheers {
 
         for (int i = 0; i < nameLength; i++) {
                 char letter = word.charAt(i);
-                System.out.println("Give me "+ (anLetters.indexOf(letter)>0 ? "an " : "a ") +letter+": "+ letter+"!");
+                System.out.println("Give me "+ (anLetters.indexOf(letter)>0 ? "an  " : "a  ") +letter+": "+ letter+"!");
         }
 
         System.out.println("What does that spell?");
